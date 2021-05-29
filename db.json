@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": "ee45e098-62fb-4b32-9efd-7db457b74cd4",
+      "name": "Abubakar",
+      "email": "baba@example.com",
+      "position": "Mechanic"
+    },
+    {
+      "id": "abba68ed-1b9c-4c64-bd6b-0d994120ee42",
+      "name": "Saalu Issaka",
+      "email": "saaluissaka@gmail.com",
+      "position": "Software Engineer"
+    },
+    {
+      "id": "19de4fc9-644e-4140-8251-dfc1cc9493a2",
+      "name": "Sulemanu Issaka",
+      "email": "sule@gmail.com",
+      "position": "Translator"
+    }
+  ]
+}
