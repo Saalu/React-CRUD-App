@@ -34,11 +34,11 @@ function App() {
  const updateHandler = async(clickedItem)=> {
    const res = await api.put(`/items/${clickedItem.id}`, clickedItem)
    const {id, name} = res.data;
-   const newItem = items.map(item => {
-      return item.id === id ? res.data : clickedItem
+   setItems(items.map(item => {
+      return item.id === id ? {...res.data }: clickedItem
    })
-
-   setItems(newItem)
+   )
+  //  setItems(newItem)
  }
 // UPDATE
  const deleteHandler = async(id)=> {

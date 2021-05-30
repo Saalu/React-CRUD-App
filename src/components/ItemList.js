@@ -22,7 +22,8 @@ function ItemList({item, deleteHandler}) {
             <div className="todo-icon mt-3">
                
                 <span className="mx-2 text-primary">
-                <Link to={{pathname:`edit/${id}`, state:{item}}} style={{color:'inherit', textDecoration:'none'}} >
+                <Link to={{pathname:`edit`, item}} 
+                style={{color:'inherit', textDecoration:'none'}} >
                     <i className="fas fa-pen"></i>
                 </Link>
                 </span>

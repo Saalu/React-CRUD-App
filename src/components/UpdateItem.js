@@ -1,12 +1,12 @@
 import React,{useState} from 'react'
 
 function CreateItem(props) {
-    const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
-    const [position, setPosition] = useState('')
-
-    console.log(props);
-
+    const {item} = props.location
+    const [id, setId] = useState(item.id)
+    const [name, setName] = useState(item.name)
+    const [email, setEmail] = useState(item.email)
+    const [position, setPosition] = useState(item.position)
+    
     const update = (e) => {
         e.preventDefault()
         
@@ -14,7 +14,7 @@ function CreateItem(props) {
             alert('Please all the fields are required')
             return;
         }
-        const newInputs = {name, email, position}
+        const newInputs = {id,name, email, position}
         props.updateHandler(newInputs)
         props.history.push('/');
     }

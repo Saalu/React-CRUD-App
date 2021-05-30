@@ -12,6 +12,7 @@ function CreateItem(props) {
             alert('Please all the fields are required')
             return;
         }
+        
         const newInputs = {name, email, position}
         props.addHandler(newInputs)
         props.history.push('/');
