@@ -1,40 +1,24 @@
 {
-  "items": [
+  "students": [
     {
-      "id": "f9f0b4e0-03e4-4775-9f6d-ebe0150122d5",
-      "name": "Naomi",
-      "email": "naomi@yahoo.com",
-      "position": "Cyber Security"
+      "id": "2",
+      "name": "Wahid",
+      "level": "Advance"
     },
     {
-      "id": "71e39744-53ae-4cbf-9a0b-d02b1561567c",
-      "name": "Issaka",
-      "email": "issaka@gmail.com",
-      "position": "Programmer"
-    },
-    {
-      "id": "06f682ba-3b58-42b4-84f3-b7246dac34c2",
+      "id": "3",
       "name": "Saalu Issaka",
-      "email": "saaluissaka@gmail.com",
-      "position": "Snr Developer"
+      "level": "Advance"
     },
     {
-      "id": "8c0ffddb-9330-4d8a-b1d4-27e9aa4cc631",
-      "name": "Hanson",
-      "email": "han@gtuc.com",
-      "position": "Lecturer"
+      "name": "Baba",
+      "level": "Intermidiate",
+      "id": "8YlcVBr"
     },
     {
-      "id": "924ca394-b111-4881-8c05-71ae8659df28",
-      "name": "George",
-      "email": "george@gmail.com",
-      "position": "Technician"
-    },
-    {
-      "id": "8f59ecc2-981e-4ac3-8f0b-14fc46f5f48b",
-      "name": "Sumaila",
-      "email": "sumaila@yahoo.com",
-      "position": "Lead Engineer"
+      "id": "d482b8b0-41a7-48ad-94bf-cb8fd079d0b2",
+      "name": "Zeenatu",
+      "level": "Intermediate"
     }
   ]
 }

@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "json-server -p 8000 -w db.json"
+    "dev": "json-server -p 7000 -w db.json"
   },
   "eslintConfig": {
     "extends": [
